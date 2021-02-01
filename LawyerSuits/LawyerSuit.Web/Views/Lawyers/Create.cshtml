@@ -1,0 +1,52 @@
+﻿@model LawyerSuits.Domain.Lawyer
+@using LawyerSuits.Domain.Enum
+@{
+    ViewData["Title"] = "Lawyer";
+}
+
+<h1>Advogado</h1>
+
+<h4>Cadastro</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LawyerName" class="control-label"></label>
+                <input asp-for="LawyerName" class="form-control" />
+                <span asp-validation-for="LawyerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LawyerCPF" class="control-label"></label>
+                <input asp-for="LawyerCPF" class="form-control" />
+                <span asp-validation-for="LawyerCPF" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LawyerOABOrder" class="control-label"></label>
+                <input asp-for="LawyerOABOrder" class="form-control" />
+                <span asp-validation-for="LawyerOABOrder" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="OccupationArea" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+
+                    <!-- <select asp-for="OccupationArea" class="form-control" asp-items="Html.GetEnumSelectList<LawyerOccupationArea>()"></select> -->
+                    <select asp-for="OccupationArea" asp-items="Html.GetEnumSelectList<LawyerOccupationArea>()">
+                        <option selected="selected" value="">Please select</option>
+                    </select>
+                    <span asp-validation-for="OccupationArea" class="text-danger" ></span>
+                </div>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsActive" /> @Html.DisplayNameFor(model => model.IsActive)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index">Voltar a Lista de Processos</a><!-- goes back to list of lawsuits-->
+            </div>
+        </form>
+    </div>
+</div>

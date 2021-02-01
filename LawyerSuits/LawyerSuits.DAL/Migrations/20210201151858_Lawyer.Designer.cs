@@ -3,14 +3,16 @@ using System;
 using LawyerSuits.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LawyerSuits.DAL.Migrations
 {
     [DbContext(typeof(LawyerSuitsDbContext))]
-    partial class LawyerSuitsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210201151858_Lawyer")]
+    partial class Lawyer
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

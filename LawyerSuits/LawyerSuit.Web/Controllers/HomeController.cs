@@ -31,6 +31,11 @@ namespace LawyerSuits.Web.Controllers
             return View(_db.Lawsuits.AsEnumerable());
         }
 
+        public IActionResult Lawyers()
+        {
+            return View(_db.Lawyers.AsEnumerable());
+        }
+
         public IActionResult Privacy()
         {
             return View();

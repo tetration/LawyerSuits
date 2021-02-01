@@ -35,13 +35,20 @@ using LawyerSuits.Domain;
 #nullable disable
 #nullable restore
 #line 4 "D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\Views\_ViewImports.cshtml"
+using LawyerSuits.Domain.Enum;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\Views\_ViewImports.cshtml"
 using LawyerSuits.Services;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b5b2c4a0c24c252dc60294b8afda2fa0f2b0f00a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a23d1d95bc1286fe0c208dde9438857e2b2ee7f3", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

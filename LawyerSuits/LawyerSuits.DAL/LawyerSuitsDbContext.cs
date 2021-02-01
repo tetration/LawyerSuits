@@ -30,5 +30,6 @@ namespace LawyerSuits.DAL
         }
 
         public DbSet<SuitItem> Lawsuits { get; set; }
+        public DbSet<Lawyer> Lawyers { get; set; }
     }
 }
