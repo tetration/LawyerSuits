@@ -26,7 +26,18 @@
                     {
                 <tr>
                     <td>@suit.SuitName </td>
-                    <td>@suit.IsCompleted </td>
+                    <td>
+                        @if (@suit.IsCompleted==true)
+                        {
+                            <div>Sim</div>
+                        }
+                        else {
+                            <div>Não</div>
+                        }
+
+
+
+                    </td>
                     <td>@suit.DateCreated.ToLocalTime() </td>
                     <td>@suit.LastModified.ToLocalTime() </td>
                     <td class="text-center">@Html.ActionLink("Editar", "Edit", "Lawsuits", new { Id = suit.Id }) | @Html.ActionLink("Deletar", "Delete", "Lawsuits", new { Id = suit.Id }) </td>
