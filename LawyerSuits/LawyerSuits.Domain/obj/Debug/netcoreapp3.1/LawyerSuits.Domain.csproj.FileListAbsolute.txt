@@ -1,7 +1,6 @@
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Domain\bin\Debug\netcoreapp3.1\LawyerSuits.Domain.deps.json
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Domain\bin\Debug\netcoreapp3.1\LawyerSuits.Domain.dll
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Domain\bin\Debug\netcoreapp3.1\LawyerSuits.Domain.pdb
-D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Domain\obj\Debug\netcoreapp3.1\LawyerSuits.Domain.csprojAssemblyReference.cache
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Domain\obj\Debug\netcoreapp3.1\LawyerSuits.Domain.AssemblyInfoInputs.cache
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Domain\obj\Debug\netcoreapp3.1\LawyerSuits.Domain.AssemblyInfo.cs
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Domain\obj\Debug\netcoreapp3.1\LawyerSuits.Domain.csproj.CoreCompileInputs.cache

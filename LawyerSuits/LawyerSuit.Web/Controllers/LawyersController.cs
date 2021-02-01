@@ -11,6 +11,7 @@ using LawyerSuits.Services.EmailService;
 
 namespace LawyerSuits.Web.Controllers
 {
+    //[Route("api/[LawyersController]")]
     public class LawyerController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -22,11 +23,12 @@ namespace LawyerSuits.Web.Controllers
             _db = db;
             _emailService = emailService;
         }
+        //[Route("/Lawyers")]
         public IActionResult Index()
         {
             return View(_db.Lawyers.AsEnumerable());
         }
-
+        //[Route("/Lawyers/Create")]
         public IActionResult Create()
         {
             return View(new Lawyer());
@@ -40,11 +42,10 @@ namespace LawyerSuits.Web.Controllers
                 model.LastModified = DateTime.Now;
                 _db.Add(model);
                 _db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction();
             }
             return View(model);
         }
-
         public IActionResult Edit(int Id)
         {
             return View(_db.Lawyers.FirstOrDefault(a => a.Id == Id)); 
@@ -71,7 +72,7 @@ namespace LawyerSuits.Web.Controllers
             }
             return View(model);
         }
-
+        //[Route("Lawyers/Delete/{id:int}")]
         public IActionResult Delete(int Id)
         {
             return View(_db.Lawyers.FirstOrDefault(a => a.Id == Id));

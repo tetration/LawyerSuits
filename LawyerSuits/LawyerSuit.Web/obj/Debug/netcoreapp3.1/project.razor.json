@@ -14447,6 +14447,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Git\\LawyerSuits\\LawyerSuits\\LawyerSuit.Web\\Views\\Lawyer\\Index.cshtml",
+      "TargetPath": "Views\\Lawyer\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Git\\LawyerSuits\\LawyerSuits\\LawyerSuit.Web\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
