@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LawyerSuitsDbContext.Overrides.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LawyerSuitsDbContext.Overrides.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LawyerSuits.Domain\LawyerSuits.Domain.csproj" />
+    <ProjectReference Include="..\LawyerSuits.Services\LawyerSuits.Services.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\bin\Debug\netcoreapp3.1\LawyerSuits.DAL.deps.json
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\bin\Debug\netcoreapp3.1\LawyerSuits.DAL.dll
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\obj\Debug\netcoreapp3.1\LawyerSuits.DAL.csprojAssemblyReference.cache
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\obj\Debug\netcoreapp3.1\LawyerSuits.DAL.AssemblyInfoInputs.cache
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\obj\Debug\netcoreapp3.1\LawyerSuits.DAL.AssemblyInfo.cs
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\obj\Debug\netcoreapp3.1\LawyerSuits.DAL.csproj.CoreCompileInputs.cache
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\bin\Debug\netcoreapp3.1\LawyerSuits.DAL.pdb
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\bin\Debug\netcoreapp3.1\LawyerSuits.Domain.dll
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\bin\Debug\netcoreapp3.1\LawyerSuits.Services.dll
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\bin\Debug\netcoreapp3.1\LawyerSuits.Domain.pdb
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\bin\Debug\netcoreapp3.1\LawyerSuits.Services.pdb
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\obj\Debug\netcoreapp3.1\LawyerSuits.DAL.csproj.CopyComplete
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\obj\Debug\netcoreapp3.1\LawyerSuits.DAL.dll
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.DAL\obj\Debug\netcoreapp3.1\LawyerSuits.DAL.pdb

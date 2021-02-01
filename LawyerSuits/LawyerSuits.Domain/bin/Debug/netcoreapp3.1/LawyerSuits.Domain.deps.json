@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LawyerSuits.Domain/1.0.0": {
+        "runtime": {
+          "LawyerSuits.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LawyerSuits.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
