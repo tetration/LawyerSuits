@@ -30,11 +30,8 @@ namespace LawyerSuits.Web
             services.AddControllersWithViews();
 
             services.AddHttpContextAccessor();
-            //var connection = Configuration["ConnectionStrings:SqliteConnectionString"];
-            //var connection = Configuration["ConnectionStrings:DefaultConnection"];
+
             services.AddDbContext<LawyerSuitsDbContext>(options => options.UseSqlite("SqliteConnectionString", mig => mig.MigrationsAssembly("LawyerSuits.DAL")));
-            //services.AddDbContext<LawyerSuitsDbContext>(options => options.UseSqlite(Configuration.GetConnectionString(connection), mig => mig.MigrationsAssembly("LawyerSuits.DAL")));
-            //services.AddDbContext<LawyerSuitsDbContext>(options => options.UseSqlite(Configuration.GetConnectionString("DefaultConnection"), mig=> mig.MigrationsAssembly("LawyerSuits.DAL")));
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddTransient<IEmailService, EmailService>();
         }

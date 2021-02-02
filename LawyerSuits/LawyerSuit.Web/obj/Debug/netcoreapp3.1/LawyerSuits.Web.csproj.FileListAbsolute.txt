@@ -146,6 +146,10 @@ D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\View
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawsuits\Delete.cshtml.g.cs
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawsuits\Edit.cshtml.g.cs
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawsuits\Index.cshtml.g.cs
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawyer\Create.cshtml.g.cs
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawyer\Delete.cshtml.g.cs
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawyer\Edit.cshtml.g.cs
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawyer\Index.cshtml.g.cs
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -158,7 +162,3 @@ D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\LawyerSuit
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\LawyerSuits.Web.dll
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\LawyerSuits.Web.pdb
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\LawyerSuits.Web.genruntimeconfig.cache
-D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawyer\Index.cshtml.g.cs
-D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawyer\Create.cshtml.g.cs
-D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawyer\Delete.cshtml.g.cs
-D:\Git\LawyerSuits\LawyerSuits\LawyerSuit.Web\obj\Debug\netcoreapp3.1\Razor\Views\Lawyer\Edit.cshtml.g.cs

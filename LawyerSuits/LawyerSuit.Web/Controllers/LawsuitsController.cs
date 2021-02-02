@@ -56,6 +56,7 @@ namespace LawyerSuits.Web.Controllers
             {
                 var editModel = _db.Lawsuits.Find(model.Id);
                 editModel.SuitName = model.SuitName;
+                editModel.SuitDescription = model.SuitDescription;
                 editModel.IsCompleted = model.IsCompleted;
                 if (editModel.IsCompleted)
                 {
