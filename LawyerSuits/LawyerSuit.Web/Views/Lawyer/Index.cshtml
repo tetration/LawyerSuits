@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<Lawyer>
+@using LawyerSuits.Services.Enumerations;
 @{
     ViewData["Title"] = "Lawyers/Advogados";
 }
@@ -31,7 +32,7 @@
                             <td>@lawyer.LawyerName </td>
                             <td>@lawyer.LawyerCPF</td>
                             <td>@lawyer.LawyerOABOrder</td>
-                            <td>@lawyer.OccupationArea</td>
+                            <td>@Enumerations.GetEnumDescription(@lawyer.OccupationArea)</td>
                             <td>
                                 @if (@lawyer.IsActive == true)
                                 {

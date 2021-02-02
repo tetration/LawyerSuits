@@ -6,3 +6,4 @@ D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Services\obj\Debug\netcoreapp3.1\Lawy
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Services\obj\Debug\netcoreapp3.1\LawyerSuits.Services.csproj.CoreCompileInputs.cache
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Services\obj\Debug\netcoreapp3.1\LawyerSuits.Services.dll
 D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Services\obj\Debug\netcoreapp3.1\LawyerSuits.Services.pdb
+D:\Git\LawyerSuits\LawyerSuits\LawyerSuits.Services\obj\Debug\netcoreapp3.1\LawyerSuits.Services.csprojAssemblyReference.cache

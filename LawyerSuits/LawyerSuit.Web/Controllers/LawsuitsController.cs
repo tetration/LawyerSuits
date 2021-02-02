@@ -60,7 +60,7 @@ namespace LawyerSuits.Web.Controllers
                 if (editModel.IsCompleted)
                 {
                     editModel.LastModified = DateTime.Now;
-                    await _emailService.SendEmailAsync("JohnDoe@test.com", "JaneDoe@test.com", "Lawsuit Was Completed", $"Task {editModel.Id} Was Completed on {DateTime.Now}");
+                    //await _emailService.SendEmailAsync("JohnDoe@test.com", "JaneDoe@test.com", "Lawsuit Was Completed", $"Task {editModel.Id} Was Completed on {DateTime.Now}");
                 }
                 _db.SaveChanges();
                 return RedirectToAction("Index");

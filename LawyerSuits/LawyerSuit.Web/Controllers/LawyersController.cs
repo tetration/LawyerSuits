@@ -65,7 +65,7 @@ namespace LawyerSuits.Web.Controllers
                 if (editModel.IsActive)
                 {
                     editModel.LastModified = DateTime.Now;
-                    await _emailService.SendEmailAsync("JohnDoe@test.com", "JaneDoe@test.com", "Lawyer Was Registered", $"Task {editModel.Id} Was Registered on {DateTime.Now}");
+                    //await _emailService.SendEmailAsync("JohnDoe@test.com", "JaneDoe@test.com", "Lawyer Was Registered", $"Task {editModel.Id} Was Registered on {DateTime.Now}");
                 }
                 _db.SaveChanges();
                 return RedirectToAction("Index");

@@ -1,5 +1,6 @@
 ﻿@model LawyerSuits.Domain.Lawyer
 @using LawyerSuits.Domain.Enum
+@using LawyerSuits.Services.Enumerations
 @{
     ViewData["Title"] = "Lawyer";
 }
@@ -32,7 +33,7 @@
                 <div class="col-md-10">
 
                     <!-- <select asp-for="OccupationArea" class="form-control" asp-items="Html.GetEnumSelectList<LawyerOccupationArea>()"></select> -->
-                    <select asp-for="OccupationArea" asp-items="Html.GetEnumSelectList<LawyerOccupationArea>()">
+                    <select asp-for="OccupationArea" asp-items="Html.GetEnumSelectList<LawyerOccupationArea>()">)
                         <option selected="selected" value="">Please select</option>
                     </select>
                     <span asp-validation-for="OccupationArea" class="text-danger" ></span>

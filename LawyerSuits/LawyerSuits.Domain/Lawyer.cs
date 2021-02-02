@@ -28,5 +28,6 @@ namespace LawyerSuits.Domain
         public LawyerOccupationArea OccupationArea { get; set; }
         [Display(Name = "Pode Exercer?")]
         public bool IsActive { get; set; } = false;// Lawyer has the to right to exercise his profession
+
     }
 }
