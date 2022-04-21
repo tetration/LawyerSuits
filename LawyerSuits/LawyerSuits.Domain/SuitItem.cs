@@ -13,6 +13,8 @@ namespace LawyerSuits.Domain
         public string SuitName { get; set; }
         [Display(Name = "Processo finalizado?")]
         public bool IsCompleted { get; set; } = false;// Lawsuit is finished
-
+        
+        [Display(Name = "Descrição do Processo")]
+        public string SuitDescription { get; set; }
     }
 }
